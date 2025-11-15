@@ -1,5 +1,6 @@
 import { Container, Button, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import trackerImg from "../assets/Ao2_Tracker.png";
 
 export default function HomePage() {
   return (
@@ -9,7 +10,7 @@ export default function HomePage() {
         {/* Hero Section */}
         <Row className="align-items-center mb-5">
           <Col md={6} className="text-center text-md-start">
-            <h1 className="fw-bold display-5">Warranty Keeper</h1>
+            <h1 className="fw-bold display-5">AO2 Tracker</h1>
             <p className="lead mt-3">
               Easily scan, extract, and store your warranty information using
               AI-powered OCR & GPT. Never lose track of a warranty again.
@@ -39,7 +40,7 @@ export default function HomePage() {
 
           <Col md={6} className="mt-4 mt-md-0 text-center">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/599/599346.png"
+              src={trackerImg}
               alt="Warranty Illustration"
               style={{ width: "65%" }}
             />
