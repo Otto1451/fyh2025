@@ -1,0 +1,98 @@
+.expiry-highlight {
+  background: #ff4d4d !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+/* --- CALENDAR WRAPPER --- */
+.calendar-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.react-calendar {
+  background: #1e1e1e !important;
+  color: white !important;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  border: none !important;
+  font-size: 1.1rem;
+}
+
+/* --- NAVIGATION BAR (month switcher) --- */
+.react-calendar__navigation button {
+  color: white !important;
+  background: #2a2a2a !important;
+  border: none;
+  padding: 8px 12px;
+  margin: 4px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.react-calendar__navigation button:hover {
+  background: #444 !important;
+}
+
+.react-calendar {
+  overflow: hidden;
+}
+
+/* --- WEEKDAY LABELS --- */
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  color: #bbb !important;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* --- CELLS (Day Buttons) --- */
+.react-calendar__tile {
+  background: #2a2a2a !important;
+  color: white !important;
+  border-radius: 10px;
+  padding: 12px 0px;
+  transition: all 0.15s ease-in-out;
+}
+
+.react-calendar__tile:hover {
+  background: #3d3d3d !important;
+}
+
+/* --- EXPIRY HIGHLIGHT --- */
+/* Day highlight (already exists) */
+.expiry-highlight {
+  background: #ff4d4d !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 50% !important;
+}
+
+/* Month highlight (calendar YEAR VIEW) */
+.expiry-month-highlight {
+  background: #ff9800 !important;
+  color: white !important;
+  border-radius: 12px !important;
+  font-weight: bold !important;
+  box-shadow: 0 0 6px rgba(255, 152, 0, 0.7);
+}
+
+/* Year highlight (calendar DECADE VIEW) */
+.expiry-year-highlight {
+  background: #00bcd4 !important;
+  color: #000 !important;
+  border-radius: 12px !important;
+  font-weight: bold !important;
+  box-shadow: 0 0 6px rgba(0, 188, 212, 0.7);
+}
+
+
+/* --- SELECTED DAY --- */
+.react-calendar__tile--active {
+  background: #007bff !important;
+  color: white !important;
+  border-radius: 10px;
+}
