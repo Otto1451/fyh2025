@@ -22,6 +22,18 @@ export const saveWarrantyToFirebase = async (data) => {
   }
 };
 
+export async function saveSubscription(data) {
+  const user = auth.currentUser;
+  if (!user) return;
+
+  await addDoc(collection(db, "subscriptions"), {
+    ...data,
+    userId: user.uid,
+  });
+
+  console.log("Subscription saved!");
+}
+
 export const deleteWarranty = async (id) => {
   try {
     await deleteDoc(doc(db, "warranties", id));

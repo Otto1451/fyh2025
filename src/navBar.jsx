@@ -37,6 +37,8 @@ export default function Navigation() {
               <>
                 <Nav.Link as={Link} to="/scan">Scan Warranty</Nav.Link>
                 <Nav.Link as={Link} to="/warranties">My Warranties</Nav.Link>
+                <Nav.Link as={Link} to="/subScan">Scan Subscription</Nav.Link>
+                <Nav.Link as={Link} to="/subs">My Subscriptions</Nav.Link>
                 <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
               </>
             )}
