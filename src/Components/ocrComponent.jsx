@@ -12,7 +12,7 @@ export default function OcrTest() {
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const API_KEY = "K81545091988957";
+  const API_KEY = import.meta.env.VITE_OCR;
 
   const handleFileChange = (e) => {
     const f = e.target.files?.[0];
