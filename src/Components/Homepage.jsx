@@ -12,7 +12,7 @@ export default function HomePage() {
           <Col md={6} className="text-center text-md-start">
             <h1 className="fw-bold display-5">AO2 Tracker</h1>
             <p className="lead mt-3">
-              Easily scan, extract, and store your warranty information using
+              Easily scan, extract, and store your warranty and subscription information using
               AI-powered OCR & GPT. Never lose track of a warranty again.
             </p>
 
@@ -48,7 +48,7 @@ export default function HomePage() {
         </Row>
 
         {/* Feature Section */}
-        <h2 className="fw-bold text-center mb-4">Why Use Warranty Keeper?</h2>
+        <h2 className="fw-bold text-center mb-4">Why Use Ao2 Tracker?</h2>
 
         <Row className="g-4">
           <Col md={4}>
@@ -56,7 +56,7 @@ export default function HomePage() {
               <Card.Body>
                 <Card.Title className="fw-bold">📄 AI-Powered OCR</Card.Title>
                 <Card.Text>
-                  Upload an image or PDF of your receipt or warranty. Our system
+                  Upload an image or PDF of your warranty or subscription receipt. Our system
                   reads the text automatically.
                 </Card.Text>
               </Card.Body>
@@ -68,7 +68,7 @@ export default function HomePage() {
               <Card.Body>
                 <Card.Title className="fw-bold">🤖 GPT Data Extraction</Card.Title>
                 <Card.Text>
-                  Warranty details (purchase date, expiry, product name) are
+                  Details (purchase date, expiry, product name) are
                   automatically extracted using AI.
                 </Card.Text>
               </Card.Body>
@@ -80,7 +80,7 @@ export default function HomePage() {
               <Card.Body>
                 <Card.Title className="fw-bold">☁️ Stored in Firebase</Card.Title>
                 <Card.Text>
-                  Your warranties are securely stored and linked to your
+                  Your receipts are securely stored and linked to your
                   account. Access them anywhere, anytime.
                 </Card.Text>
               </Card.Body>
