@@ -1,5 +1,6 @@
 # AO2 — AI Warranty Scanner  
 *A web app that scans, extracts, and tracks warranty expiry dates using OCR, GPT, and Firebase.*
+https://ao2-tracker.netlify.app/
 
 ## Overview  
 Consumers often lose warranty receipts or forget expiry dates, leading to:
